@@ -1,3 +1,9 @@
+# Pycharm fodler
+.idea
+
+# MacOS files
+.DS-Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
