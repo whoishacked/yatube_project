@@ -5,7 +5,7 @@ This is Yandex.Praktikum project. Social network for bloggers.
 Python 3.7
 Django 2.2.19
 ### Install & run dev-project
-- Install & acrivate venv
+- Install & run venv
 - Install libraries from requirements.txt
 ```
 pip install -r requirements.txt
