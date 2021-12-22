@@ -8,5 +8,8 @@
     {% block title %}
         <h1>Последние обновления на сайте</h1>
     {% endblock %}
-    {% include 'posts/includes/posts.html' %}
+    {% for post in posts %}
+        {% include 'posts/includes/posts.html' %}
+        {% if not forloop.last %}<hr>{% endif %}
+    {% endfor %}
 {% endblock %}
