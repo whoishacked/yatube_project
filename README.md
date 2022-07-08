@@ -1,18 +1,61 @@
 # Yatube
-### Description
-This is Yandex.Praktikum project. Social network for bloggers.
-### Technologies
-Python 3.7
-Django 2.2.19
-### Install & run dev-project
-- Install & run venv
-- Install libraries from requirements.txt
+## Описание
+Yatube – cоциальная сеть, разработанная на Django 3. Пользователям доступен личные кабинет с авторизацией. Можно подписываться на интересных авторов. Авторы могут создавать различные произведения, выбирая жанры из предложенного списка.
+## Установка
+Клонируем репозиторий:
+```
+git clone https://github.com/whoishacked/yatube_project/
+```
+
+Переходим в папку с проектом:
+```
+cd api_yamdb
+```
+
+Устанавливаем и активируем venv:
+```
+python3 -m venv venv
+```
+
+```
+source venv/bin/activate
+```
+
+Устанавливаем pip:
+```
+python3 -m pip install --upgrade pip
+```
+
+Устанавливаем зависимости:
 ```
 pip install -r requirements.txt
-``` 
-- Run from manage.py folder:
+```
+
+Создаем миграции:
+```
+python manage.py makemigrations
+```
+
+Выполняем миграции:
+```
+python manage.py migrate
+```
+
+Запускаем проект:
 ```
 python3 manage.py runserver
 ```
-### Authors
-Andrew K.
+
+Проект будет доступен по адресу:
+```http://127.0.0.1:8000/```
+
+## Технологии
+**Python 3.7**
+**Django 2.2.19**
+
+Полный список доступен в **requirements.txt**
+
+## Об авторах
+**Кутузов Андрей:**
+- Telegram: @andrewkutuzov
+- Email: britvill@gmail.com
