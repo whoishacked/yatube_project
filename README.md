@@ -55,7 +55,7 @@ python3 manage.py runserver
 
 Полный список доступен в **requirements.txt**
 
-## Об авторах
+## Об авторе
 **Кутузов Андрей:**
 - Telegram: @andrewkutuzov
 - Email: britvill@gmail.com
