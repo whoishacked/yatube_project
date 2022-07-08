@@ -50,8 +50,8 @@ python3 manage.py runserver
 ```http://127.0.0.1:8000/```
 
 ## Технологии
-**Python 3.7**
-**Django 2.2.19**
+- Python 3.7
+- Django 2.2.19
 
 Полный список доступен в **requirements.txt**
 
